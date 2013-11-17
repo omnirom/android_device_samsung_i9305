@@ -113,7 +113,7 @@
     <!-- <integer name="config_deviceHardwareKeys">7</integer> -->
 
     <!-- Boolean to enable stk functionality on Samsung phones -->
-    <!-- <bool name="config_samsung_stk">true</bool> -->
+    <bool name="config_samsung_stk">true</bool>
 
     <!-- Control whether a desk dock event should override the default bluetooth
          audio routing, FORCE_BT_DESK_DOCK, with an analog dock, FORCE_ANALOG_DOCK. -->

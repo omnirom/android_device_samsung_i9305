@@ -1,3 +1,0 @@
-$(call inherit-product, device/samsung/i9305/full_i9305.mk)
-
-PRODUCT_NAME := aosp_i9305
