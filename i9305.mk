@@ -58,8 +58,8 @@ PRODUCT_PACKAGES += \
     Tag
 
 # Omni Packages
- PRODUCT_PACKAGES += \
-     OmniTorch
+PRODUCT_PACKAGES += \
+    OmniTorch
  
 PRODUCT_COPY_FILES += \
     packages/apps/Nfc/migrate_nfc.txt:system/etc/updatecmds/migrate_nfc.txt \
