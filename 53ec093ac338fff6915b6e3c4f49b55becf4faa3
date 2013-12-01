@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b8ed5af_597ae4b9",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 119,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2013-12-01T12:20:12Z",
+      "side": 1,
+      "message": "actually this should be obsolete. So statusbar is always translucent in 4.4 even without this set to true. Can you please test this?",
+      "revId": "53ec093ac338fff6915b6e3c4f49b55becf4faa3",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    },
+    {
+      "key": {
+        "uuid": "8b8ed5af_397518ca",
+        "filename": "overlay/frameworks/base/core/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 122,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2013-12-01T12:20:12Z",
+      "side": 1,
+      "message": "Any reason why you disable this?",
+      "revId": "53ec093ac338fff6915b6e3c4f49b55becf4faa3",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
