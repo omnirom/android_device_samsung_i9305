@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "6b8b61a3_915c4c1e",
+        "filename": "overlay/frameworks/base/core/res/res/xml/storage_list.xml",
+        "patchSetId": 2
+      },
+      "lineNbr": 52,
+      "author": {
+        "id": 1000026
+      },
+      "writtenOn": "2013-12-05T11:26:26Z",
+      "side": 0,
+      "message": "Are you sure you want to remove that?",
+      "revId": "66fec9695d2b4bc95ba48a3657cf41abc9259c2a",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
