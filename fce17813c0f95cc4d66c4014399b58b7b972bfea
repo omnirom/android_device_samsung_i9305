@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "8b77b57d_5f18077a",
+        "filename": "audio/audio_hw.c",
+        "patchSetId": 2
+      },
+      "lineNbr": 546,
+      "author": {
+        "id": 1000117
+      },
+      "writtenOn": "2014-02-17T17:02:18Z",
+      "side": 1,
+      "message": "This should fix headphone sometimes not working issue, right ?",
+      "revId": "fce17813c0f95cc4d66c4014399b58b7b972bfea",
+      "serverId": "56841c99-7c94-43d4-bf0b-cb4707e66d55",
+      "unresolved": false
+    }
+  ]
+}
