@@ -39,7 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    camera.smdk4x12
+    camera.exynos4
 
 # GPS
 PRODUCT_COPY_FILES += \
