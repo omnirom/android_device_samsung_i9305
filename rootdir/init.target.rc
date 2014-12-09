@@ -141,10 +141,11 @@ service qmiproxy /system/bin/qmiproxy
     user radio
     group radio gps
 
+
+# should user be system instead?
 service qmuxd /system/bin/qmuxd
     class main
     user root
-    seclabel u:r:qmux:s0
     group radio log audio bluetooth gps log
 
 # TVout
