@@ -70,6 +70,9 @@
         <item>7</item>
     </integer-array>
 
+    <!-- Indicate whether the SD card is accessible without removing the battery. -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
+
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface">pdp0</string>
 
@@ -113,6 +116,14 @@
     <integer name="config_deviceHardwareKeys">7</integer>
 
     <!-- Boolean to enable stk functionality on Samsung phones
-    <bool name="config_samsung_stk">true</bool> -->
+    <bool name="config_samsung_stk">true</bool>  -->
+
+    <!-- Control whether a desk dock event should override the default bluetooth
+         audio routing, FORCE_BT_DESK_DOCK, with an analog dock, FORCE_ANALOG_DOCK.
+    <bool name="config_forceAnalogDeskDock">true</bool>  -->
+
+    <!-- Control whether a car dock event should override the default bluetooth
+         audio routing, FORCE_BT_CAR_DOCK, with an analog dock, FORCE_ANALOG_DOCK.
+    <bool name="config_forceAnalogCarDock">true</bool>  -->
 
 </resources>
