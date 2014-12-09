@@ -50,6 +50,8 @@ BOARD_SEPOLICY_DIRS += \
     device/samsung/i9305/selinux
 
 BOARD_SEPOLICY_UNION += \
+    bluetooth.te \
+    radio.te \
     file_contexts \
     te_macros \
     device.te \
@@ -60,11 +62,17 @@ BOARD_SEPOLICY_UNION += \
     kickstart.te \
     mediaserver.te \
     netmgrd.te \
-    qmux.te \
+    qmiproxy.te \
+    qmuxd.te \
     rild.te \
     secril.te \
+    servicemanager.te \
+    sysinit.te \
     system.te \
+    system_server.te \
+    time_daemon.te \
     ueventd.te \
+<<<<<<< HEAD
     wpa_supplicant.te
 
 # TWRP
@@ -72,3 +80,9 @@ DEVICE_RESOLUTION := 720x1280
 
 # Compatibility with pre-kitkat Sensor HALs
 SENSORS_NEED_SETRATE_ON_ENABLE := true
+=======
+    vold.te \
+    wpa.te \
+    wpa_supplicant.te \
+    zygote.te
+>>>>>>> a56f61b... L bringup (selinux, ported from t0lte) + minor changes
