@@ -14,7 +14,7 @@
 # limitations under the License.
 
 # Inherit Omni GSM telephony parts
-#$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/omni/config/gsm.mk)
 
 # Inherit from our omni product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
