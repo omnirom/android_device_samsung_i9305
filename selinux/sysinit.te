@@ -1,1 +1,0 @@
-allow sysinit mmc_block_device:file read;
