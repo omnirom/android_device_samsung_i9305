@@ -82,7 +82,7 @@ PRODUCT_PACKAGES += \
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     mobiledata.interfaces=pdp0,gprs,ppp0,rmnet0,rmnet1 \
-    ro.telephony.ril.config=exynos4RadioState
+    ro.telephony.ril.v3=newDriverCall,newDialCode
 
 # These are the hardware-specific features
 PRODUCT_COPY_FILES += \
