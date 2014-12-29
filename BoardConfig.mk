@@ -72,13 +72,17 @@ BOARD_SEPOLICY_UNION += \
     system_server.te \
     time_daemon.te \
     ueventd.te \
-    vold.te \
-    wpa.te \
-    wpa_supplicant.te \
-    zygote.te
+<<<<<<< HEAD
+    wpa_supplicant.te
 
 # TWRP
 DEVICE_RESOLUTION := 720x1280
 
 # Compatibility with pre-kitkat Sensor HALs
 SENSORS_NEED_SETRATE_ON_ENABLE := true
+=======
+    vold.te \
+    wpa.te \
+    wpa_supplicant.te \
+    zygote.te
+>>>>>>> a56f61b... L bringup (selinux, ported from t0lte) + minor changes
